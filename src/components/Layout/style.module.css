@@ -1,0 +1,15 @@
+.side_main{
+    display: flex;
+
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+/* .App-layout{
+    border: solid 10px red;
+    background: linear-gradient(transparent, rgba(1, 1, 1, 1));
+} */

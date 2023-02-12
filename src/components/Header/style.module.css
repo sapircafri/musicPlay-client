@@ -1,0 +1,98 @@
+.header {
+
+    height: 100px;
+    background-color: var(--bg-color);
+    display: flex;
+    padding: 5px;
+    /* justify-content: left; */
+    align-items: center;
+    color: var( --text-color);
+
+}
+.symbol{
+    font-size: 22px;
+    font-weight: 900;
+}
+.symbol>span {
+    color:rgb(198, 151, 73);
+    font-size: 23px;
+
+    
+}
+.symbol_icon{
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin: 6px;
+}
+
+.icon {
+    font-size: 35px;
+    color: black;
+    /* font-family: sans-serif; */
+    margin-left: 2%;
+
+}
+
+.inputSong {
+
+    width:300px;
+    height: 30px;
+    /* margin: 8%; */
+    border: solid 0px;
+    border-radius: 20px;
+    color: black;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.input{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 15%;
+    height: 30px;
+    width: 300px;
+    /* padding: 0.5%; */
+    background-color: white;
+    border-radius: 30px;
+
+
+}
+
+#logout {
+    position: absolute;
+    top: 9%;
+    right: 7%;
+    border-radius: 20px;
+    height: 30px; 
+    border: solid 2px rgb(144, 141, 154);
+    background-color: rgb(238, 236, 243);
+    color: black;
+}
+
+#hello {
+    color: var(--text-color);
+}
+
+.userIcon {
+    /* background-color: black; */
+    font-size: 22px;
+    margin-right: 5px;
+    z-index: 100;
+    color: #d9d9d9;
+    border-radius: 20px;
+  }
+  
+  /* .userIcon:hover {
+    color: #56c493;
+  } */
+
+  .userConnect{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+  }
+
+
