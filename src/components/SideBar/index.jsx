@@ -10,9 +10,9 @@ function SideBar() {
   return (
     <div className={styles.sideBar}>
      <div className={styles.category_list}>
-        <p className={styles.category} onClick= {()=>navigate("home")}> <AiOutlineHome className={styles.icon}/> Home </p>
-        <p className={styles.category} onClick= {()=>navigate("search")}> <BsSearch className={styles.icon}/> Search </p>
-        <p className={styles.category} onClick= {()=>navigate("playlists")}> <BiLibrary className={styles.icon} /> Your Playlists </p>
+        <p className={styles.category} onClick= {()=>navigate("home")}> <AiOutlineHome className={styles.icon}/>  </p>
+        <p className={styles.category} onClick= {()=>navigate("search")}> <BsSearch className={styles.icon}/> </p>
+        <p className={styles.category} onClick= {()=>navigate("playlists")}> <BiLibrary className={styles.icon} /> </p>
      </div>
         
     </div>

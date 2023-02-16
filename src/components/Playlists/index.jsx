@@ -6,6 +6,7 @@ import Song from "../Song";
 import styles from "./style.module.css";
 import axios from "axios";
 import AddPlaylist from "../AddPlaylist";
+import SongsOfPlaylist from "../SongsOfPlaylist";
 
 function Playlists() {
   const { user } = useContext(userContext);
@@ -20,7 +21,7 @@ function Playlists() {
       "get",
       `http://localhost:4000/playlist/getPlaylist?userId=${user._id}`
     ).then((res) => setPlaylist(res.data));
-  }, [playlistToShow]);
+  }, [playlist]);
 
   return (
     <div className={styles.playlists}>
@@ -33,14 +34,7 @@ function Playlists() {
       </div>
 
       {playlistToShow && (
-        <div className={styles.songsOfPlaylist}>
-          {console.log(playlistToShow.songs)}
-          {playlistToShow.songs.map((v) => (
-            <div className={styles.songDiv}>
-              <Song {...v} />
-            </div>  
-          ))}
-        </div>
+        <SongsOfPlaylist playlistToShow={playlistToShow.songs} />
       )}
     </div>
   );

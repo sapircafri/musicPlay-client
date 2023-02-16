@@ -1,0 +1,16 @@
+.loveSongs{
+    width:75%;
+    height: 100vh;
+    padding: 20px;
+
+}
+
+.loveSongs_list{
+    padding: 0px 5px 0 5px;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 35px;
+    }
